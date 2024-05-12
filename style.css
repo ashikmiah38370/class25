@@ -1,0 +1,59 @@
+.menu1{
+    text-align: center;
+    margin-top: 20px;
+}
+.menu1 h3{
+    color: blue;
+}
+.menu1 h1::before{
+    content: "";
+
+}
+.menu2{
+    text-align: center;
+    
+    
+}
+.card{
+    padding: 60px;
+    margin-top: 30px;
+}
+.card a{
+    text-decoration: none;
+    padding: 10px;
+    background: blue;
+    color: white;
+    border-radius: 30px;
+    font-size: 20px;
+    
+    
+}
+.big{
+    font-size: 50px;
+    font-weight: 1000;
+}
+.card:hover{
+    background: blue;
+    color: white;
+}
+.card a:hover{
+    background: white;
+}
+.menu3{
+    text-align: center;
+    margin-top: 40px;
+    background: url(https://img.hotimg.com/free-bg38a1ec4f191c773b.jpeg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px;
+    color: white;
+}
+.new a{
+    text-decoration: none;
+    background: blue;
+    padding: 15px;
+    border-radius: 20px;
+    display: inline-block;
+    color: white;
+    margin-top: 20px;
+}
