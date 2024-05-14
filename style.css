@@ -2,7 +2,7 @@
     text-align: center;
     margin-top: 20px;
 }
-.menu1 h3{
+.menu1 h4{
     color: blue;
 }
 .menu1 h1::before{
@@ -25,19 +25,34 @@
     color: white;
     border-radius: 30px;
     font-size: 20px;
-    
-    
+    position: relative;
+    z-index: 1;
+}
+.card a::before{
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: blue;
+    z-index: -1;
+    transition: 1s;
+    position: absolute;
+}
+.card a:hover::before{
+    width: 100%;
+
 }
 .big{
     font-size: 50px;
     font-weight: 1000;
 }
 .card:hover{
-    background: blue;
-    color: white;
+    background: #3d61d4;
+    
 }
 .card a:hover{
-    background: white;
+    background: #3d61d4;
 }
 .menu3{
     text-align: center;
@@ -47,13 +62,59 @@
     background-size: cover;
     padding: 200px;
     color: white;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.menu3::before{
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: hsl(240, 100%, 50%, .5);
+    z-index: -1;
 }
 .new a{
     text-decoration: none;
-    background: blue;
+    background: white;
     padding: 15px;
     border-radius: 20px;
     display: inline-block;
-    color: white;
+    color: black;
     margin-top: 20px;
+}
+.new a:hover{
+    background: #3d61d4;
+}
+.al{
+    padding: 30px;
+}
+.vp{
+    background: blue;
+    
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+}
+.mp{
+background: blue;
+color: white;
+border-radius: 20px;
+text-align: center;
+padding: 5px;
+}
+.az{
+    text-align: center;
+    margin-top: 100px;
+    margin: auto;
+    height: auto;
+    width: 200px;
+    display: block;
+    position: relative;
+    top: 50px;
+}
+.cv{
+    background: #3d61d4;
 }
